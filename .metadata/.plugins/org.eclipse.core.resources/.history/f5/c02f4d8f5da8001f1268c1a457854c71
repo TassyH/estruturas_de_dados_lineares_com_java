@@ -1,0 +1,43 @@
+package FILA;
+
+import PILHAS.No;
+
+public class Fila {
+	
+	public No inicio;
+	public No fim;
+
+	public int n;
+	
+	public Fila() {
+		inicio = null;
+		fim = null;
+		n = 0;
+	}
+	
+	public int size() {
+		return n;
+	}
+	
+	public void enfileirar(int elemento) {
+		No novo = new No(elemento);
+		
+		if(fim==null) {
+			inicio = novo;
+		}else {
+			novo.proximo = topo;
+			topo = novo;
+		}
+		
+		n++;
+	}
+	
+	public int pop() {
+		
+		int elemento = topo.elemento;
+		topo = topo.proximo;
+		n--; //ta tirando ele ta pilha
+		return elemento;
+	}
+
+}

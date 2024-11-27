@@ -1,0 +1,23 @@
+package PILHAS;
+
+public class TestaPilha {
+	public static void main(String[] args) {
+		Pilha p = new Pilha();
+		
+		p.push(10);
+		p.push(2);
+		p.push(9);
+		
+		int elemento;
+		elemento = p.pop();
+		
+		System.out.println(elemento);
+        elemento = p.pop();
+		System.out.println(elemento);
+        elemento = p.pop();
+		System.out.println(elemento);
+		
+		System.out.println(p.size());
+	}
+
+}

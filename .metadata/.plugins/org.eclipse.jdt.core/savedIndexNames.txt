@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\tassy.7214\Desktop\Estruturas de dados\JAVA\.metadata\.plugins\org.eclipse.jdt.core
+3401292413.index
+1748216613.index
+1865797976.index
+271940138.index
+573633133.index

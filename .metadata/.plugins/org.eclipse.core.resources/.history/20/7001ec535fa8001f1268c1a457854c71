@@ -1,0 +1,10 @@
+package FILA;
+
+public class TestaFila {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
