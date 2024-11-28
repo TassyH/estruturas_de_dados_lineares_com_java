@@ -46,7 +46,7 @@ public class OrdenacaoStrings {
 		int i, j, pos_atual, pos_menor, menor, aux;
 
 		for(i = 0; i <n; i++) {
-			System.out.print(palavras[i] + " ");
+			System.out.println(palavras[i] + " ");
 		}
 	}
 	
